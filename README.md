@@ -1,4 +1,4 @@
-# **Planned Design for a Multimodal Early Detection Model for Breast Cancer**
+# **Planned Architecture for a Multimodal Early Detection Model for Breast Cancer**
 
 ## **1\. Introduction**
 
@@ -31,11 +31,8 @@ Breast cancer is one of the most prevalent cancers affecting women worldwide. Ea
 
 **Sources:**
 
-* The Cancer Imaging Archive (TCIA)  
-* Breast-Diagnosis dataset  
-* CBIS-DDSM (Curated Breast Imaging Subset of DDSM)  
-* INbreast Dataset  
-* Kaggle datasets
+* BreakHis Database \- (https://www.kaggle.com/datasets/ambarish/breakhis)  
+* CBIS-DDSM (Curated Breast Imaging Subset of DDSM) \- (https://www.kaggle.com/datasets/awsaf49/cbis-ddsm-breast-cancer-image-dataset)
 
 #### **b. Genomic Data**
 
@@ -50,10 +47,8 @@ Breast cancer is one of the most prevalent cancers affecting women worldwide. Ea
 
 **Sources:**
 
-* The Cancer Genome Atlas (TCGA) \- Breast Cancer (BRCA)  
-* METABRIC (Molecular Taxonomy of Breast Cancer International Consortium)  
-* Gene Expression Omnibus (GEO)  
-* Kaggle datasets
+* CuMiDa \- (https://www.kaggle.com/datasets/brunogrisci/breast-cancer-gene-expression-cumida)  
+* METABRIC (Molecular Taxonomy of Breast Cancer International Consortium) \- (https://www.kaggle.com/datasets/raghadalharbi/breast-cancer-gene-expression-profiles-metabric)
 
 #### **c. Clinical Data**
 
@@ -68,9 +63,10 @@ Breast cancer is one of the most prevalent cancers affecting women worldwide. Ea
 
 **Sources:**
 
-* TCGA Clinical Data  
-* Surveillance, Epidemiology, and End Results (SEER) Program  
-* Kaggle datasets
+* Cancer Data \- ([https://www.kaggle.com/datasets/erdemtaha/cancer-data/data](https://www.kaggle.com/datasets/erdemtaha/cancer-data/data))  
+* Real Breast Cancer Data \- ([https://www.kaggle.com/datasets/amandam1/breastcancerdataset](https://www.kaggle.com/datasets/amandam1/breastcancerdataset))  
+* Surveillance, Epidemiology, and End Results (SEER) Program- ([https://www.kaggle.com/datasets/reihanenamdari/breast-cancer](https://www.kaggle.com/datasets/reihanenamdari/breast-cancer))  
+* Breast Cancer Wisconsin (Diagnostic) Dataset \- (https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
 
 ### **3.2: Drawbacks and Limitations**
 
@@ -206,6 +202,10 @@ The ensemble approach allows for:
 * Enhanced decision-making support for healthcare providers.  
 * Potential reduction in mortality rates through timely interventions.
 
+## **8\. Timeline**
+
+![][image1]
+
 ## **9\. Conclusion**
 
 This proposal outlines a comprehensive approach to developing a multimodal early detection model for breast cancer. By integrating imaging, genomic, and clinical data through specialized models and a meta-model, the project aims to improve detection accuracy and contribute to better patient outcomes. The ensemble approach provides scalability and robustness, ensuring adaptability to future advancements in medical data analysis. However, it's crucial to address the identified drawbacks, particularly regarding data biases and limitations, to ensure the model's effectiveness and ethical implementation.
@@ -214,23 +214,38 @@ This proposal outlines a comprehensive approach to developing a multimodal early
 
 ### **A. References**
 
-*Guo, K., Wu, M., Soo, Z., Yang, Y., Zhang, Y., Zhang, Q., Lin, H., Grosser, M., Venter, D., Zhang, G., & Lu, J. (2023). Artificial intelligence-driven biomedical genomics. Knowledge-Based Systems, 279, 110937\. https://doi.org/10.1016/j.knosys.2023.110937*  
+Alharbi, R. (2018). *Breast Cancer Gene Expression Profiles (METABRIC)*. Kaggle.com. https://www.kaggle.com/datasets/raghadalharbi/breast-cancer-gene-expression-profiles-metabric  
 
-*Kaggle. (2022). Kaggle: Your Home for Data Science. Kaggle.com. https://www.kaggle.com/*  
+AM. (2021). *Real Breast Cancer Data*. Kaggle.com. https://www.kaggle.com/datasets/amandam1/breastcancerdataset  
 
-*Litjens, G., Kooi, T., Bejnordi, B. E., Setio, A. A. A., Ciompi, F., Ghafoorian, M., van der Laak, J. A. W. M., van Ginneken, B., & Sánchez, C. I. (2017). A Survey on Deep Learning in Medical Image Analysis. Medical Image Analysis, 42(1), 60–88. https://doi.org/10.1016/j.media.2017.07.005* 
+Awsaf. (2016). CBIS-DDSM: Breast Cancer Image Dataset. *Kaggle.com*. https://doi.org/10.7937/K9/TCIA.2016.7O02S9CY/n%60%60%60/n\#\#  
 
-*Nasser, M., & Yusof, U. K. (2023). Deep Learning Based Methods for Breast Cancer Diagnosis: A Systematic Review and Future Direction. Diagnostics (Basel, Switzerland), 13(1), 161\. https://doi.org/10.3390/diagnostics13010161*  
-*National Cancer Institute. (2018). Surveillance, Epidemiology, and End Results Program. SEER. https://seer.cancer.gov/*  
+Bukun. (2020). *BreakHis*. Kaggle.com. https://www.kaggle.com/datasets/ambarish/breakhis  
 
-*Quazi, S. (2022). Artificial intelligence and machine learning in precision and genomic medicine. Medical Oncology, 39(8). https://doi.org/10.1007/s12032-022-01711-1*  
-*Spanhol, F. A., Oliveira, L. S., Petitjean, C., & Heutte, L. (2016). Breast cancer histopathological image classification using Convolutional Neural Networks. 2016 International Joint Conference on Neural Networks (IJCNN). https://doi.org/10.1109/ijcnn.2016.7727519*  
+Grisci, B. (2019). Breast cancer gene expression \- CuMiDa. *Kaggle.com*. https://doi.org/10.1089/cmb.2018.0238\](https://doi.org/10.1089/cmb.2018.0238)\]/n/n-  
+Guo, K., Wu, M., Soo, Z., Yang, Y., Zhang, Y., Zhang, Q., Lin, H., Grosser, M., Venter, D., Zhang, G., & Lu, J. (2023). Artificial intelligence-driven biomedical genomics. *Knowledge-Based Systems*, *279*, 110937\. https://doi.org/10.1016/j.knosys.2023.110937  
 
-*The Cancer Genome Atlas Program \- National Cancer Institute. (2018, June 13). Www.cancer.gov. https://www.cancer.gov/tcga*  
+Litjens, G., Kooi, T., Bejnordi, B. E., Setio, A. A. A., Ciompi, F., Ghafoorian, M., van der Laak, J. A. W. M., van Ginneken, B., & Sánchez, C. I. (2017). A Survey on Deep Learning in Medical Image Analysis. *Medical Image Analysis*, *42*(1), 60–88. https://doi.org/10.1016/j.media.2017.07.005  
 
-*The Cancer Imaging Archive (TCIA) \-. (2015). The Cancer Imaging Archive (TCIA). https://www.cancerimagingarchive.net/*  
+Nasser, M., & Yusof, U. K. (2023). Deep Learning Based Methods for Breast Cancer Diagnosis: A Systematic Review and Future Direction. *Diagnostics (Basel, Switzerland)*, *13*(1), 161\. https://doi.org/10.3390/diagnostics13010161  
 
-*Wei, L., Niraula, D., Gates, E. D. H., Fu, J., Luo, Y., Nyflot, M. J., Bowen, S. R., El Naqa, I. M., & Cui, S. (2023). Artificial intelligence (AI) and machine learning (ML) in precision oncology: a review on enhancing discoverability through multiomics integration. The British Journal of Radiology, 96(1150). https://doi.org/10.1259/bjr.20230211*
+National Cancer Institute. (2018). *Surveillance, Epidemiology, and End Results Program*. SEER. https://seer.cancer.gov/  
+
+Quazi, S. (2022). Artificial intelligence and machine learning in precision and genomic medicine. *Medical Oncology*, *39*(8). https://doi.org/10.1007/s12032-022-01711-1  
+
+Reihaneh Namdari. (2017). *Breast Cancer*. Kaggle.com. https://www.kaggle.com/datasets/reihanenamdari/breast-cancer  
+
+Spanhol, F. A., Oliveira, L. S., Petitjean, C., & Heutte, L. (2016). Breast cancer histopathological image classification using Convolutional Neural Networks. *2016 International Joint Conference on Neural Networks (IJCNN)*. https://doi.org/10.1109/ijcnn.2016.7727519  
+
+Taha, E. (2023). *Cancer Data*. Kaggle.com. https://www.kaggle.com/datasets/erdemtaha/cancer-data/data  
+
+*The Cancer Genome Atlas Program \- National Cancer Institute*. (2018, June 13). Www.cancer.gov. https://www.cancer.gov/tcga  
+
+*The Cancer Imaging Archive (TCIA) \-*. (2015). The Cancer Imaging Archive (TCIA). https://www.cancerimagingarchive.net/  
+
+UCI Machine Learning. (2016). *Breast Cancer Wisconsin (Diagnostic) Data Set*. Kaggle.com. https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data  
+
+Wei, L., Niraula, D., Gates, E. D. H., Fu, J., Luo, Y., Nyflot, M. J., Bowen, S. R., El Naqa, I. M., & Cui, S. (2023). Artificial intelligence (AI) and machine learning (ML) in precision oncology: a review on enhancing discoverability through multiomics integration. *The British Journal of Radiology*, *96*(1150). https://doi.org/10.1259/bjr.20230211
 
 ### **B. Abbreviations**
 
